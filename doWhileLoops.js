@@ -78,7 +78,8 @@ text5 = '';
 
 // Write 5th loop here:
 do {
-  text5 += `${Math.floor(Math.random()) + 1} `;
+  i = Math.floor(Math.random() * 10);
+  text5 += `${i} `;
 } while (i !== 8);
 
 print(text5); // Should print something like `4 7 2 9 8 `, or `9 0 8 ` or `8 `.

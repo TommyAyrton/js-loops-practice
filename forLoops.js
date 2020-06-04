@@ -70,11 +70,8 @@ print('5th Loop:');
 text5 = '';
 
 // Write 5th loop here:
-for (let i = 50; i < 55; i -= 5) {
-  text5 += `${i} `;
-  if (i == 5) {
-    break;
-  }
+for (let i = 50; i >= 5; i -= 5) {
+  text5 += `${i} `; 
 }
 
 print(text5); // Should print `50 45 40 35 30 25 20 15 10 5 `.
